@@ -8,6 +8,7 @@ stages
   steps
   {
    echo "Source Code Download from the GITHUB to Declarative Pipeline......."
+   git 'https://github.com/Akshiv20/gitprojectrepository.git'
   }
  } 
  stage('Build')
